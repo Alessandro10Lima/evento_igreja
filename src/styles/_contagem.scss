@@ -1,5 +1,5 @@
 .contagem{
-    background-image: url("../images/contagem1.png");
+    background-image: url("../images/contagem.png");
     background-size: cover;
     height: 60vh;
     background-repeat: no-repeat;
@@ -30,5 +30,37 @@
             }
         }
     }
+}
 
+@media (max-width:767px){
+    .contagem{
+
+        .container{
+            max-width: 90%;
+
+            .row{
+                margin: 0;
+
+                h2{
+                    margin: 0 auto;
+                    width: 60vw;
+                    padding-bottom: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .contagem{
+        height: 27vh;
+        
+        .container{
+            max-width: 90%;
+
+            .row{
+                margin: 0 160px;
+            }
+        }
+    }
 }

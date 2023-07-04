@@ -77,3 +77,73 @@
         }
     }
 }
+
+@media (max-width: 767px){
+    .ingresso{
+        .container{
+            .row{
+                h2{
+                    font-size: 28px;
+                    padding-top: 40px;
+                    padding-bottom: 12px;
+                }
+            }
+
+            .ticket{
+                max-width: 90%;
+                margin: 0 auto;
+            }
+
+            .button{
+                margin-left: 32px;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .ingresso{
+        .container{
+            .row{
+                h2{
+                    font-size: 42px;
+                    padding-top: 40px;
+                    padding-bottom: 38px;
+                }
+            }
+
+            .ticket{
+                max-width: 90%;
+                margin: 0 120px;
+                height: 43vh;
+
+                .price{
+                    border-bottom: none;
+                    font-size: 160px;
+                }
+
+                .txt{
+                    margin-top: 0px;
+                    padding-bottom: 24px;
+                    padding: 11px 0;
+                    border-top: 1px solid #d4d4d4;
+
+                    p{
+                        padding-top: 8px;
+                        padding: 0 80px;
+                        font-size: 22px;
+                        
+                    }
+                }
+            }
+
+            .button{
+                margin-left: 187px;
+                width: 320px;
+                height: 50px;
+                margin-top: 60px;
+                font-size: 24px;
+            }
+        }
+    }
+}

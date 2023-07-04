@@ -1,6 +1,6 @@
 .hero{
     // background-image: url(../images/evento.png);
-    background-image: url("../images/5.png");
+    background-image: url("../images/hero.png");
     background-size: cover;
     height: 110vh;
     margin-top: 12vh;
@@ -52,6 +52,84 @@
             -webkit-transform: scale(1.15);
             transform: scale(1.15);
             box-shadow: 0 0 15px #fd4800;
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .hero{
+        margin-top: 7vh;
+        background-image: url("../images/hero.mobile.png");
+        background-size: cover;
+        height: 100vh;
+
+        .content{
+            padding-left: 0;
+            width: 80%;
+            margin: 0 auto;
+
+            h1{
+                font-size: 30px;
+                width: 80%;
+                margin: 0 auto;
+                text-align: center;
+                margin-top: 100px;
+            }
+
+            p{
+                width: 80%;
+                margin: 0 auto;
+                text-align: center;
+            }
+        }
+
+        .button{
+            margin-top: 35px;
+            margin-left: 112px;
+            width: 40%;
+            font-size: 16px;
+            width: 140px;
+            height: 34px;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .hero{
+        background-image: url("../images/hero.ipad.png");
+        margin-top: 6vh;
+        height: 55vh;
+
+        .content{
+            padding-left: 0;
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 15vh;
+
+            h1{
+                font-size: 45px;
+                width: 80%;
+                margin: 0 auto;
+                text-align: center;
+                margin-top: 100px;
+                line-height: 4vh;
+                padding-bottom: 28px;
+            }
+
+            p{
+                width: 80%;
+                margin: 0 auto;
+                text-align: center;
+                font-size: 18px;
+            }
+        }
+
+        .button{
+            width: 240px;
+            height: 50px;
+            margin-top: 35px;
+            margin-left: 36vw;
+            font-size: 26px;
         }
     }
 }

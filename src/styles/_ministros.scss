@@ -1,6 +1,6 @@
 .ministros{
     // background: linear-gradient(1deg,#e234ff, #6837ff);
-    background-image: url("../images/4.png");
+    background-image: url("../images/ministros.fundo.png");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -33,6 +33,75 @@
                 font-weight: bold;
                 color: #daffe0;
                 text-transform: uppercase;
+            }
+        }
+    }
+}
+
+@media (max-width:767px){
+    .ministros{
+
+        .container{
+
+            .row{
+
+                h2{
+                    font-size: 28px;
+                }
+            }
+
+            .content{
+                width: 90%;
+                margin: 0 auto;
+                .col-md-3{
+                    padding-bottom: 40px;
+
+                    &:last-child{
+                        padding-bottom: 0px;
+                    }
+                    
+                    h3{
+                        padding-top: 4px;
+                        text-align: center;
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .ministros{
+
+        .container{
+            display: block;
+            .row{
+
+                h2{
+                    font-size: 42px;
+                    margin-top: 45px;
+                    margin-bottom: 20px;
+                }
+            }
+
+            .content{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                margin-top: 0;
+
+                .col-md-3{
+                    width: 100%;
+                    margin-bottom: 48px;
+
+                    &:last-child{
+                        padding-bottom: 0px;
+                    }
+
+                    .section-title{
+                        font-size: 28px;
+                    }
+                }
             }
         }
     }

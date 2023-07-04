@@ -1,5 +1,5 @@
 .evento{
-    background-image: url("../images/6.png");
+    background-image: url("../images/evento.png");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -48,6 +48,85 @@
                             -webkit-transform: scale(1.15);
                             transform: scale(1.15);
                             box-shadow: 0 0 15px #fd4800;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .evento{
+        .content{
+
+            .container{
+                max-width: 80%;
+                text-align: center;
+
+                .row{
+        
+                    .description{
+                        padding-left: 0;
+
+                        h2{
+                            font-size: 32px;
+                        }
+
+                        p{
+                            width: 100%;
+                        }
+
+                        .button{
+                            font-size: 15px;
+                            width: 230px;
+                            height: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .evento{
+        background-image: url("../images//evento.ipad.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 70vh;
+
+        .content{
+            .container{
+                padding-top: 24vh;
+                
+                .row{
+                    margin: 0 auto;
+                    display: block;
+
+                    .description{
+                        // padding-left: 0px;
+                        text-align: center;
+                        margin: 0 auto;
+                        padding-right: 45px;
+                        padding-left: 45px;
+
+                        h2{
+                            font-size: 42px;
+                            margin: 0 auto;
+                        }
+
+                        p{
+                            width: 90%;
+                            margin: 0 auto;
+                            margin-bottom: 16px;
+                        }
+
+                        .button{
+                            width: 270px;
+                            height: 48px;
+                            font-size: 18px;
+                            margin-top: 22px;
                         }
                     }
                 }
