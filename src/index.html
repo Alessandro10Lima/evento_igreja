@@ -5,9 +5,167 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evento</title>
     <link rel="stylesheet" href="styles/main.scss">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
 </head>
 <body>
-    <h1>olá</h1>
+    <header class="header">
+        <nav class="header__navbar">
+            <h2>Dia 01 a 04 de Novembro</h2>
+        </nav>
+        <div class="content">
+            <h2 class="content__title">Igreja Lar Mcz</h2>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="content">
+            <h1>Você quer ser cheio da glória de Deus?</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Commodi ducimus asperiores esse corrupti assumenda, blanditiis error dolores mollitia?
+                Impedit delectus aperiam in officiis labore assumenda exercitationem quis ex eum illo.</p>
+        </div>
+        <button class="button">
+            Participar
+        </button>
+    </section>
+    <section class="ministros">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Ministros Confirmados</h2>
+            </div>
+            <div class="row mt-5 content">
+                <div class="col-md-3">
+                    <img src="./images/ministros.png" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title fs-4">
+                        Pr. Antônio Cirilo
+                    </h3>
+                </div>
+                <div class="col-md-3">
+                    <img src="./images/ministros.png" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title fs-4">
+                        Ap. Kleber de Jesus
+                    </h3>
+                </div>
+                <div class="col-md-3">
+                    <img src="./images/ministros.png" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title fs-4">
+                        Ap. Valdir Reis
+                    </h3>
+                </div>
+                <div class="col-md-3">
+                    <img src="./images/ministros.png" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title fs-4">
+                        Pr. Manoel
+                    </h3>
+                </div>
+            </div>
+            <div class="row mt-5 content">
+                <div class="col-md-3">
+                    <img src="./images/ministros.png" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title fs-4">
+                        Pr. Antônio Cirilo
+                    </h3>
+                </div>
+                <div class="col-md-3">
+                    <img src="./images/ministros.png" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title fs-4">
+                        Ap. Kleber de Jesus
+                    </h3>
+                </div>
+                <div class="col-md-3">
+                    <img src="./images/ministros.png" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title fs-4">
+                        Ap. Valdir Reis
+                    </h3>
+                </div>
+                <div class="col-md-3">
+                    <img src="./images/ministros.png" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title fs-4">
+                        Pr. Manoel
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="evento">
+        <div class="pt-5 pb-5 content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="./images/evento.png" class="d-none w-100 rounded" alt="foto do espaço interno">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0 description">
+                        <h2 class="section-title">O evento</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aperiam tenetur voluptatum voluptates sequi dolorem assumenda ratione,
+                            modi cum mollitia dolorum deleniti pariatur corporis consequatur adipisci aut eaque?
+                            Ab, quis mollitia.
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aperiam tenetur voluptatum voluptates sequi dolorem assumenda ratione,
+                            modi cum mollitia dolorum deleniti pariatur corporis consequatur adipisci aut eaque?
+                            Ab, quis mollitia.
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aperiam tenetur voluptatum voluptates sequi dolorem assumenda ratione.
+                            
+                        </p>
+                        <button class="button">
+                            Adquirir meu ingresso
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contagem pt-5 pb-5">
+        <div class="container">
+            <div class="row text-center">
+                <h2>
+                    O evento começa em
+                </h2>
+                <span id="contador">5d 5h 5m 5s</span>
+            </div>
+        </div>
+    </section>
+    <section class="ingresso">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <h2 class="section-title text-center">Garanta seu Ingresso</h2>
+            </div>
+            <div class="text-center ticket">
+                <div class="title">
+                    Conferência
+                </div>
+                <div class="price">
+                    150
+                </div>
+                <div class="txt">
+                    <p>
+                        Ingresso presencial para Conferência Peso da Glória
+                    </p>
+                </div>
+            </div>
+            <button class="button">
+                Adquirir o meu
+            </button>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./images/logo-lar.png" alt="logo da igreja">
+            <p>
+                ® 2023 - Todos os direitos reservados.
+            </p>
+            <p class="text--small">
+                Peso da glória | 01, 02, 03 e 04 de Novembro
+            </p>
+            <p>
+                Igreja Lar Maceió. 
+            </p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="./scripts/main.js"></script>
 </body>
 </html>

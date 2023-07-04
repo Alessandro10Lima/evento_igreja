@@ -1,0 +1,39 @@
+.ministros{
+    // background: linear-gradient(1deg,#e234ff, #6837ff);
+    background-image: url("../images/4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .container{
+        padding-bottom: 80px;
+
+        .content{
+            .col-md-3{
+                padding-left: 16px;
+                padding-right: 16px;
+
+                img{
+                    height: 35vh;
+                    box-shadow: 0 0 20px #000;
+                }
+
+                h3{
+                    font-weight: bold;
+                    padding-top: 12px;
+                    color: #daffe0;
+                }
+            }
+        }
+
+        .row{
+
+            h2{
+                padding-top: 80px;
+                font-size: 34px;
+                font-weight: bold;
+                color: #daffe0;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

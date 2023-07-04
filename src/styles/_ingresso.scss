@@ -1,0 +1,79 @@
+.ingresso{
+    .container{
+
+        .row{
+            h2{
+                padding-bottom: 40px;
+                font-weight: bold;
+                font-size: 34px;
+                text-transform: uppercase;
+                color:  #ff009d;
+            }
+        }
+
+        .ticket{
+            margin: 0px 400px;
+            border: 2px solid #dadada;
+            
+            .title{
+                padding-bottom: 14px;
+                padding-top: 14px;
+                text-transform: uppercase;
+                background-color: #ff009d;
+                font-weight: bold;
+                align-items: center;
+                font-size: 30px;
+                color: white;
+                border-bottom: 1px solid #d4d4d4;
+            }
+
+            .price{
+                padding: 50px;
+                font-size: 90px;
+                font-weight: bold;
+                text-align: center;
+                padding-left: 40px;
+                border-bottom: 1px solid #d4d4d4;
+                background-color: white;
+            }
+
+            .txt{
+                font-size: 18px;
+                color: #424242;
+                margin: 0 auto;
+                background-color: #eeeeee;
+                padding: 12px 0;
+
+                p{
+                    padding: 0 40px;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+
+        .button{
+            width: 290px;
+            height: 40px;
+            margin-top: 30px;
+            margin-left: 413px;
+            font-size: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            background: linear-gradient(1deg,#ffef34,#ff8400);
+            color: rgb(0, 0, 0);
+            border: 1px solid #fd4800;
+            border-radius: 3px;
+            cursor: pointer;
+            -moz-transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+            transition: all 0.5s;
+            
+            &:hover{
+                -moz-transform: scale(1.15);
+                -webkit-transform: scale(1.15);
+                transform: scale(1.15);
+                box-shadow: 0 0 15px #fd4800;
+                }
+        }
+    }
+}

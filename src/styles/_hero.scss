@@ -1,0 +1,57 @@
+.hero{
+    // background-image: url(../images/evento.png);
+    background-image: url("../images/5.png");
+    background-size: cover;
+    height: 110vh;
+    margin-top: 12vh;
+    background-repeat: no-repeat;
+
+    .content{
+        width: 400px;
+        padding-left: 120px;
+        padding-top: 90px;
+        margin: 0;
+
+        h1{
+            padding-bottom: 20px;
+            font-size: 38px;
+            background: linear-gradient(50deg,#2724ff, #ff6839);
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            color: transparent;
+            width: 260px;
+            font-weight: bold;
+            line-height: 40px;
+        }
+
+        p{
+            color: white;
+            font-weight: bold;
+        }
+    }
+
+    .button{
+        margin-top: 50px;
+        margin-left: 125px;
+        width: 180px;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        background: linear-gradient(1deg,#ffef34,#ff8400);
+        color: rgb(0, 0, 0);
+        border: 1px solid #fd4800;
+        border-radius: 3px;
+        cursor: pointer;
+        -moz-transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+        
+        &:hover{
+            -moz-transform: scale(1.15);
+            -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+            box-shadow: 0 0 15px #fd4800;
+        }
+    }
+}
