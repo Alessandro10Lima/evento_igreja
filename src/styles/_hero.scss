@@ -67,13 +67,14 @@
             padding-left: 0;
             width: 80%;
             margin: 0 auto;
+            padding-top: 30px;
 
             h1{
                 font-size: 30px;
                 width: 80%;
                 margin: 0 auto;
                 text-align: center;
-                margin-top: 100px;
+                margin-top: 50px;
             }
 
             p{
@@ -98,20 +99,20 @@
     .hero{
         background-image: url("../images/hero.ipad.png");
         margin-top: 6vh;
-        height: 55vh;
+        height: 50vh;
 
         .content{
             padding-left: 0;
-            width: 80%;
+            width: 90%;
             margin: 0 auto;
-            padding-top: 15vh;
+            padding-top: 5vh;
 
             h1{
                 font-size: 45px;
                 width: 80%;
                 margin: 0 auto;
                 text-align: center;
-                margin-top: 100px;
+                margin-top: 50px;
                 line-height: 4vh;
                 padding-bottom: 28px;
             }
